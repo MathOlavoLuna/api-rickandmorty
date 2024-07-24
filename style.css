@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+#rickMorty-icon{
+    width: 3%;
+}
+
+.title{
+    color: #1d7237;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title input{
+    width: 30%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    border-color: #8484842a;
+    
+}
+
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0px;
+    flex-direction: column;
+}
+
+.row{
+    max-width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    width: 500px;
+    margin: auto ;
+    padding-bottom: 2%;
+}
+
+
+.status::marker{
+    color: black;
+}
+
+.status-alive::marker{
+    color: green
+}
+
+.status-dead::marker{
+    color: red
+}
+
+.imgMsm{
+    width: 300px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+
+.pad{
+    padding: 10px 0px;
+}
+
+#portal{
+    width: 30%;
+}
+
+.status-geral{
+    display: flex;
+}
+
+.status-geral > p {
+    margin: 0px 25px;
+}
+
+#ESPAÇO{
+    padding-top: 9%;
+}
+
+.paginacao{
+    display: flex;
+    align-items: center;
+}
+
+.paginacao > button{
+    background-color: #D2E054;
+    padding: 10px;
+    border: 0px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.paginacao > p{
+    padding: 0px 20px;
+}
+
+header{
+    width: 100%;
+    height: fit-content;
+}
+
+body {
+    background-image: url(./img/FUNDO_2.jpg);
+    background-repeat: repeat;
+}
+
+.title {
+    color: #1d7237;
+}
+
+#last-see {
+    font-weight: bold;
+}
+
+.imgMsm{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.card{
+    width: 300px;
+    padding: 1rem;
+    border: 1px solid #9e9e9e;
+    height: 400px;
+}
+
+.card-dead {
+    border: 1px solid #eb7070;
+}
+
+.card-unknown {
+    border: 1px solid #62df8b;
+}
+
+.formula1{
+    border-color: #8484842a;   
+}
+
+#main-container {
+    width: 100%;
+    height: fit-content;
+    background-repeat: no-repeat;
+}
+
+#row-cards{
+    max-width: 75%;
+}
+
+.icon-header {
+    width: 10%;
+}
+
+
+#portal{
+    width: 30%;
+}
+
+.status::marker{
+    color: black;
+}
+
+.status-alive::marker{
+    color: green
+
+}
+
+.status-dead::marker{
+    color: red
+}
+
+/* Estilo para o card */
+.card {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Estilo para a imagem no card */
+.max-img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+}
+
+.imgMsm {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Estilo para o conteúdo no card */
+.pad {
+    padding: 15px;
+    text-align: center;
+}
+
+.title-card {
+    font-size: 80%;
+
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+/* Estilo para o status no card */
+.status {
+    font-weight: bold;
+}
+
+/* Adicionando estilo ao modal de informações */
+#card-information {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333333;
+}
+
+#card-information p {
+    margin: 10px 0;
+}
+
+#card-information img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+
+
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: #154b25 ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #848484;
+}
+
+@media (max-width: 1550px){
+    .card {
+        width: 500px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .imgMsm{
+        width: 500px;
+        border-radius: 0px;
+    }
+
+
+    header{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width: 950px){
+    .card {
+        width: 100%;
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .imgMsm{
+        width:70%;
+    }
+}
+@media (max-width: 750px) {
+    .row{
+        display: flex;
+        justify-content: center;
+    }
+
+    .card {
+        flex-direction: column;
+    }
+
+    .imgMsm{
+        width: 300px;
+    }
+   
+}
