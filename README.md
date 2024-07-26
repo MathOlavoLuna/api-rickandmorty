@@ -7,7 +7,7 @@ Nesse projeto aplico os conhecimentos de consumo de API com JavaScript. [Rick an
 <h2>Índice</h2>
 
 - [Sobre](#sobre)
-- [Tecnologias](#tecnologias)
+- [Tecnologias](#🧰tecnologias)
 - [Fontes](#fontes)
 - [Veja a página no ar](#veja-a-página-no-ar)
 
@@ -34,9 +34,12 @@ Por ser uma aplicação que fiz há algum tempo, minha lógica JavaScript estava
 
 Aproveite para ver a página no ar, aqui mesmo no github Pages.
 
-## Tecnologias
+## 🧰Tecnologias
 
-
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [JS](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [Bootstrap](https://getbootstrap.com/)
 
 ## Fontes
 
