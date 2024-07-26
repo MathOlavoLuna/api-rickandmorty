@@ -1,9 +1,9 @@
-<h1>Rick and Morty</h1>
+# Rick and Morty</h1>
 
+
+
+![Icon Image](img/rickMorty-Icon.png)
 Nesse projeto aplico os conhecimentos de consumo de API com JavaScript. [Rick and Morty API](https://rickandmortyapi.com/)
-
-![Home Image](img/readme/home.png)
-
 <h2>Índice</h2>
 
 - [Sobre](#sobre)
@@ -36,20 +36,7 @@ Aproveite para ver a página no ar, aqui mesmo no github Pages.
 
 ## Tecnologias
 
-<table>
-  <tr>
-    <th>HTML</th>
-    <th>CSS</th>
-    <th>JavaScript</th>
-    <th>Bootstrap</th>
-  </tr>
-  <tr>
-    <td>30%</td>
-    <td>20%</td>
-    <td>40%</td>
-    <td>10%</td>
-  </tr>
-</table>
+
 
 ## Fontes
 
