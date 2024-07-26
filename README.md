@@ -9,6 +9,7 @@ Nesse projeto aplico os conhecimentos de consumo de API com JavaScript. [Rick an
 - [Sobre](#sobre)
 - [Tecnologias](#tecnologias)
 - [Fontes](#fontes)
+- [Veja a página no ar](#veja-a-página-no-ar)
 
 ## Sobre
 
